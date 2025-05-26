@@ -27,7 +27,7 @@ pip install transformers datasets peft evaluate torch numpy
 * **Dataset Link**: [https://huggingface.co/datasets/shawhin/imdb-truncated]
 
 <p align="center">
-  <img src="resume_screening.png" alt="THE APP" width="500"/>
+  <img src="Screenshot 2025-05-26 123932.png" alt="THE APP" width="600"/>
 </p>
 
 The dataset (shawhin/imdb-truncated) can be loaded via:
@@ -57,7 +57,7 @@ model.push_to_hub("")
 ## 📄 Results
 
 <p align="center">
-  <img src="resume_screening.png" alt="img" width="500"/>
+  <img src="Screenshot 2025-05-26 124313.png" alt="img" width="500"/>
 </p>
 
 Accuracy : Trained model achieves ~85% accuracy on the validation set (varies with seed/data).
