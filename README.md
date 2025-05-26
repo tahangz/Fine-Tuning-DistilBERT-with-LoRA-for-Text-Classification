@@ -2,8 +2,6 @@
 This project demonstrates fine-tuning a pre-trained DistilBERT (67M) model using LoRA (Low-Rank Adaptation) for sentiment analysis on a truncated IMDb dataset. It leverages Hugging Face's transformers, peft, and datasets libraries to build an efficient text classification pipeline.
 
 
-# Fine-Tuning DistilBERT with LoRA for Text Classification  
-
 ## 🔍 Overview  
 This project fine-tunes a DistilBERT model for binary sentiment analysis (positive/negative) using:  
 - **LoRA**: Parameter-efficient fine-tuning via the `peft` library.  
