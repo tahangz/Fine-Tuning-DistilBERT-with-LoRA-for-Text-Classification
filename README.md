@@ -60,8 +60,7 @@ model.push_to_hub("")
   <img src="Screenshot 2025-05-26 124313.png" alt="img" width="500"/>
 </p>
 
-Accuracy : Trained model achieves ~85% accuracy on the validation set (varies with seed/data).
-Efficiency : LoRA reduces trainable parameters by ~97% compared to full fine-tuning.
+Efficiency: LoRA reduces trainable parameters by ~97% compared to full fine-tuning.
 
 ## Credits
 This work is based on [Fine-Tuning Large Language Models (LLMs)](https://medium.com/towards-data-science/fine-tuning-large-language-models-llms-23473d763b91 ).
