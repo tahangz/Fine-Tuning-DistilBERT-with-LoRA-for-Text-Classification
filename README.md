@@ -3,7 +3,6 @@ This project demonstrates fine-tuning a pre-trained DistilBERT model using LoRA 
 
 
 # Fine-Tuning DistilBERT with LoRA for Text Classification  
-**Code authored by**: [Shawhin Talebi](https://medium.com/ @shawhinitalebi)  
 **Blog Reference**: [Fine-Tuning Large Language Models (LLMs)](https://medium.com/towards-data-science/fine-tuning-large-language-models-llms-23473d763b91 )  
 
 ## Overview  
@@ -26,8 +25,12 @@ pip install transformers datasets peft evaluate torch numpy
 ````
 
 ## Dataset
+* **Dataset Link**: [[https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset]](https://huggingface.co/datasets/shawhin/imdb-truncated)
+  
 The dataset (shawhin/imdb-truncated) can be loaded via:
-
+```python
+dataset = load_dataset("shawhin/imdb-truncated")  
+````
 
 ## Usage
 Train the Model 
