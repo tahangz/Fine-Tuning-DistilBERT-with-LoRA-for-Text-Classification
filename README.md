@@ -3,7 +3,6 @@ This project demonstrates fine-tuning a pre-trained DistilBERT model using LoRA 
 
 
 # Fine-Tuning DistilBERT with LoRA for Text Classification  
-**Blog Reference**: [Fine-Tuning Large Language Models (LLMs)](https://medium.com/towards-data-science/fine-tuning-large-language-models-llms-23473d763b91 )  
 
 ## Overview  
 This project fine-tunes a DistilBERT model for binary sentiment analysis (positive/negative) using:  
@@ -25,7 +24,7 @@ pip install transformers datasets peft evaluate torch numpy
 ````
 
 ## Dataset
-* **Dataset Link**: [[https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset]](https://huggingface.co/datasets/shawhin/imdb-truncated)
+* **Dataset Link**: [https://huggingface.co/datasets/shawhin/imdb-truncated]
   
 The dataset (shawhin/imdb-truncated) can be loaded via:
 ```python
@@ -34,22 +33,24 @@ dataset = load_dataset("shawhin/imdb-truncated")
 
 ## Usage
 Train the Model 
+```bash
 python fine_tune_lora.py 
-
+````
 
 ## Evaluate Predictions
 Compares untrained vs. trained model predictions on sample text.
 
 ## Push to Hugging Face Hub (Optional) 
-model.push_to_hub("your-username/distilbert-lora-sentiment")  
-
+```python
+model.push_to_hub("")  
+````
 
 ## Results
 Accuracy : Trained model achieves ~85% accuracy on the validation set (varies with seed/data).
-Efficiency : LoRA reduces trainable parameters by ~90% compared to full fine-tuning.
+Efficiency : LoRA reduces trainable parameters by ~97% compared to full fine-tuning.
 
 ## Credits
-This work is based on the Towards Data Science article series on LLMs.
+This work is based on [Fine-Tuning Large Language Models (LLMs)](https://medium.com/towards-data-science/fine-tuning-large-language-models-llms-23473d763b91 ).
 
 
 
