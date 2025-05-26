@@ -45,8 +45,8 @@ python fine_tune_lora.ipynb
 Compares untrained vs. trained model predictions on sample text.
 
 <p align="center">
-  <img src="Screenshot 2025-05-26 124344.png" alt="THE APP" width="500"/>
   <img src="Screenshot 2025-05-26 124235.png" alt="THE APP" width="500"/>
+  <img src="Screenshot 2025-05-26 124344.png" alt="THE APP" width="600"/>
 </p>
 
 ## 🛠️ Push to Hugging Face Hub (Optional) 
